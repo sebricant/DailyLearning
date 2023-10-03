@@ -401,8 +401,8 @@ const arr3=[...resturant.starter,...resturant.mainmenu];
 
 // ************looping object****************
 
-// const properties=Object.keys(resturant.obj);
-// console.log(properties);
+const properties=Object.keys(resturant.obj);
+console.log(properties);
 
 // let str=`the resturant is open on ${properties.length} days:`
 // for(v of properties){
