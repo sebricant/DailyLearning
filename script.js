@@ -404,11 +404,8 @@ const arr3=[...resturant.starter,...resturant.mainmenu];
 const properties=Object.keys(resturant.obj);
 console.log(properties);
 
-// let str=`the resturant is open on ${properties.length} days:`
-// for(v of properties){
-//     str+=`${v},`
-// }
-// console.log(str);
+let str=`the resturant is open on ${properties.length} days:`
+console.log(str);
 
 // const propertiesValues=Object.values(resturant.obj)
 // console.log(propertiesValues);
